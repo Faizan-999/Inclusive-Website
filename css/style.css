@@ -1,0 +1,1089 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, menu, nav, output,
+ruby, section, summary,
+time, mark, audio, video, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    outline:none;
+    text-decoration: none !important;
+}
+button:focus,
+button:active,
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+header{
+    box-shadow: 0px 3px 8px 0px rgba(21, 147, 146, 0.6);
+    z-index: 99;
+    background-color: white;
+}
+.navbar{
+    padding: 0px 0px;
+}
+.navbar-brand img{
+    display: block;
+}
+.navbar-nav .nav-item .nav-link{
+    color: black;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 400;
+ }
+.navbar-nav .nav-item .nav-link:hover{
+    color: #17C7C9;
+}
+.banner-head{
+    padding-bottom: 47px;
+}
+.parent-banner h1{
+    padding-top: 66px;
+    padding-bottom: 35px;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 45px;
+    color: black;
+}
+.parent-banner h5{
+    padding-bottom: 38px;
+    color: #595959;
+}
+.btn-primary{
+    padding: 15px 30px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 8px 0px rgba(21, 147, 146, 0.6);
+    background-color: #00B3B5;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 75px;
+}
+.btn-primary:hover{
+    background-color: rgba(0, 194, 196, 0.91);
+}
+.cloud-image{
+    padding-top: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+/*............ Banner Section End .............................*/
+
+
+
+/*........................... Next Start ......................*/
+
+
+
+.counter-sectn{
+    box-shadow: 0px 3px 13px 0px rgba(31, 147, 146, 0.74);
+
+}
+/*............  counter ...........*/
+
+.count-contnar{
+    border-bottom: 1px dashed gray;
+}
+
+.counters {
+    background: white;
+    color: black;
+    padding: 30px 20px;
+    font-weight: 600;
+}
+
+.counters .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.counters .counter {
+    font-size: 45px;
+    margin: 10px 0;
+}
+.brdr{
+    border-left: 1px solid white;
+}
+.brdr h3{
+    font-size: 18px;
+    color: #666666;
+    padding-bottom: 20px;
+}
+
+/*............... Counter end*/
+.Why-Incluziv{
+    text-align: center;
+}
+.Why-Incluziv h1{
+    color: #000000;
+    font-size: 45px;
+    font-weight: 400;
+    padding-top: 33px;
+}
+.Why-Incluziv p{
+    margin-top: 14px;
+    color: #3e445b;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 80px;
+}
+.text-clor{
+    color: #019494;
+    font-size: 45px;
+    font-weight: 400;
+}
+.card {
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+}
+.card {
+    align-items: center;
+}
+.card-deck{
+    text-align: center;
+    /*margin-bottom: 70px;*/
+}
+.card-deck .card img {
+    max-width: 50%;
+    height: auto;
+}
+.Why-Incluziv .card-deck .card p{
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 70px;
+}
+.card-deck .card h5{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+}
+.card-deck .card h5:hover{
+    color: #00B3B5;
+}
+/*...................................................  Card End  .............................................*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*...............................................................................................................*/
+
+
+/*........................................ HOW Its Works Page CSS START .........................................*/
+
+
+/*................................................................................................................*/
+
+
+.its-wok-banner{
+    background-image: url("../images/as-retailer-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parent-its-work{
+    text-align: center;
+}
+.parent-its-work h1{
+    padding-top: 60px;
+    padding-bottom: 25px;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.parent-its-work span{
+    color: #009092;
+}
+.parent-its-work P{
+    padding-bottom: 48px;
+}
+.parent-its-work button{
+    margin-bottom: 50px;
+    padding: 12px 40px;
+    background-color: #01B3B5;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+}
+
+/*.......................... WELCOME COUSTOMER Section CSS Start  .............................*/
+
+.parent-Welcome-Customers h1{
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+.parent-Welcome-Customers p{
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+/*.............*/
+.parent-Collect-payments h1{
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+.parent-Collect-payments p{
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+/*..........................*/
+.parent-Make-Purchases h1{
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.parent-Make-Purchases p{
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+/*.............................*/
+
+.parent-Get-order-fulfilled h1{
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.parent-Get-order-fulfilled p{
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+/*...............................*/
+.parent-Pay-Incluziv-Every h1{
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+.parent-Pay-Incluziv-Every p{
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+
+
+
+/*...............................................................................................................*/
+
+
+/*........................................ HOW Its Works Page CSS END HERE .........................................*/
+
+
+/*................................................................................................................*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*...............................................................................................................*/
+
+
+/*........................................ Incluziv Retail Modules Page CSS START .........................................*/
+
+
+/*................................................................................................................*/
+
+
+.Incluziv-Retail-Modules{
+    background-image: url("../images/module-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.Incluziv-Retail-Modules h1{
+    padding-top: 60px;
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-size: 42px;
+}
+.Incluziv-Retail-Modules p{
+    padding-bottom: 45px;
+}
+.Incluziv-Retail-Modules button{
+    margin-bottom: 50px;
+    padding: 12px 40px;
+    background-color: #01B3B5;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+}
+.Incluziv-Retail-Modules span{
+    color: #01B3B5;
+}
+
+/*...........*/
+.parent-Customer-Management h1{
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+.parent-Customer-Management p{
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+
+.parent-Product h1{
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+.parent-Product p{
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+.parent-Warehouse-Management h1{
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+.parent-Warehouse-Management p{
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+.parent-Purchases h1{
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+.parent-Purchases p{
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+.parent-Pay-Quotations-and-CRM h1{
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+.parent-Pay-Quotations-and-CRM p{
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+.parent-Sales h1{
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+.parent-Sales p{
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+
+.parent-Tailoring-and-other h1{
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+.parent-Tailoring-and-other p{
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+.parent-Business-Reports h1{
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.parent-Business-Reports p{
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+
+.parent-Mobile-Apps h1{
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.parent-Mobile-Apps p{
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+/*...............................................................................................................*/
+
+
+/*........................................ Incluziv Retail Modules Page CSS END HERE .........................................*/
+
+
+/*................................................................................................................*/
+
+
+
+
+
+
+
+/*...............................................................................................................*/
+
+
+/*........................................ Pricing Page CSS START .........................................*/
+
+
+/*................................................................................................................*/
+
+.Pricing{
+    background-image: url("../images/pricing-plans-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.parent-pricing h1{
+    padding-top: 60px;
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-size: 42px;
+}
+.parent-pricing p{
+    padding-bottom: 45px;
+}
+.parent-pricing button{
+    margin-bottom: 50px;
+    padding: 12px 40px;
+    background-color: #01B3B5;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+}
+.parent-pricing span{
+    color: #01B3B5;
+}
+
+
+/*.....  Pricing CArds*/
+
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+a{
+    text-decoration:none;
+}
+.section-title h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #777;
+}
+.section-title h2 {
+    font-size: 32px;
+    text-transform: capitalize;
+    margin: 15px 0;
+    display: inline-block;
+    position: relative;
+    font-weight: 700;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+.section-title p {
+    font-weight: 300;
+    font-size: 14px;
+}
+.black-bg .section-title h2, .black-bg .section-title h4, .black-bg .section-title p {
+    color:#fff
+}
+.section-title h2:before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 1px;
+    background-color: #777;
+    bottom: 0;
+    left: 50%;
+    margin-left: -75px;
+}
+.section-title h2:after {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 3px;
+    background-color: #e16038;
+    border: darkblue;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -40px;
+}
+.section-title {
+    margin-bottom: 30px;
+}
+.single-price {
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #00B3B5;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.single-price:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.price-title h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.price-tag {
+    margin: 30px 0;
+}
+.price-tag {
+    margin: 30px 0;
+    background-color: #fafafa;
+    color: #000;
+    padding: 10px 0;
+}
+
+.price-tag h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #536d87;
+}
+.price-tag h2 span {
+    font-weight: 700;
+    font-size: 50px;
+    font-style: italic;
+    color: #009494;
+}
+.price-item ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.price-item ul li {
+    color: #536d87;
+    font-size: 14px;
+    padding: 5px 0;
+    border-bottom: 1px dashed #eee;
+    margin: 5px 0;
+    font-weight: 500;
+}
+.price-item ul li:last-child {
+    border-bottom: 0;
+}
+.single-price a {
+    margin-top: 15px;
+}
+
+a.box-btn {
+    background-color: #009494;
+    padding: 16px 35px;
+    display: inline-block;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 3px;
+    font-size: 15px;
+    transition: .3s;
+    font-weight: 500;
+}
+a.box-btn:hover, a.border-btn:hover {
+    background-color: #d35400;
+}
+
+
+
+/*................   TOOGLE BUTTON  ....................*/
+
+.switch {
+    height: 45px;
+    width: 100px;
+    background: #3464e0;
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+    transition: all 0.3s ease;
+    margin: 0 18px;
+    transform: translateY(-3px);
+}
+
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #009494;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 35px;
+    width: 35px;
+    left: 4px;
+    bottom: 6px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #009494;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+
+/*.......................  TOOGLE BUTTON END ..........................*/
+
+
+
+/*...............................................................................................................*/
+
+
+/*........................................ Pricing Page CSS START .........................................*/
+
+
+/*................................................................................................................*/
+
+
+
+/*...........................  Can't decide Section Start ........................*/
+.can-decide{
+    text-align: center;
+    background-color: #E8F1F6;
+    padding-bottom: 50px;
+}
+
+.parent-decid h1{
+    padding-top: 52px;
+    padding-bottom: 25px;
+}
+.parent-decid button{
+    background-color: green;
+    padding: 12px 30px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+/*......................ca't decide End ..............*/
+
+/*.........................*/
+.parent-Incluziv-Retail-FAQ{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.parent-Incluziv-Retail-FAQ h1{
+    padding-bottom: 26px;
+}
+.parent-Incluziv-Retail-FAQ span{
+    color: #009494;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/*.active, .accordion:hover {*/
+    /*background-color: #ccc;*/
+/*}*/
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+/*.active:after {*/
+    /*content: "\2796"; !* Unicode character for "minus" sign (-) *!*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*...............................................................................................................*/
+
+
+/*........................................ Pricing Page CSS END .........................................*/
+
+
+/*................................................................................................................*/
+
+.pages-tabs{
+    display: flex;
+}
+.pages-tabs h6{
+    color: #394368;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.pages-tabs span{
+    color: #394368;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.contactus-page{
+    padding-top: 105px;
+    padding-bottom: 100px;
+}
+.contactus-page p{
+    font-weight: 500;
+    color: #536d87;
+    font-size: 18px;
+}
+
+.contactus-page span{
+    font-size: 24px;
+    padding: 20px;
+    background: #009494 ;
+    line-height: 24px;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+/*.Field{*/
+    /*width: 80%;*/
+    /*padding: 80px 70px;*/
+    /*box-shadow: 0px 3px 8px 0px rgba(21, 147, 146, 0.6);*/
+    /*margin: 0 auto;*/
+    /*margin-top: 80px;*/
+    /*margin-bottom: -40px;*/
+    /*z-index: 90;*/
+/*}*/
+iframe{
+    width: 100%;
+}
+
+.mainForm{
+    padding: 70px 70px;
+    border: 1px solid #f1e9e9;
+    border-radius: 5px;
+    box-shadow: 0px 3px 8px 0px rgba(143, 141, 139, 0.69);
+}
+
+
+
+
+
+
+
+
+
+/*..............  Start Footer Css ............................*/
+
+
+footer{
+    padding-top: 110px;
+    background-color: #E8F1F6;
+}
+.ftr-parent{
+    padding-bottom: 110px;
+}
+.ftr-parent h3{
+    padding-top: 16px;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 75px;
+}
+.ftr-parent h6{
+    padding-bottom: 20px;
+    color: #54595F;
+    font-size: 16px;
+    line-height: 22px;
+}
+.widgt-1 p{
+    color: #54595F;
+    font-size: 14px;
+    line-height: 1.6em;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.ftr-parent ul li {
+    font-size: 15px;
+    font-weight: 500;
+    color: #54595F;
+    list-style-type: none;
+    line-height: 25px;
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
+.ftr-parent ul li:hover{
+    color: #00B3B5;
+}
+.wdgt-3{
+    padding-left: 20px;
+}
+.crl-div p{
+    padding-top: 10px;
+}
+.crl-div{
+    height: 200px;
+    overflow-y: scroll;
+}
+/* width */
+.crl-div::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /*box-shadow: inset 0 0 5px grey;*/
+    border-radius: 10px;
+}
+
+/* Handle */
+/*::-webkit-scrollbar-thumb {*/
+    /*background: #17c7c9;*/
+    /*border-radius: 10px;*/
+
+/*}*/
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #17c7c9;
+    border-radius: 10px;
+}
+
+.payments{
+    background-color: #474b51;
+    padding: 30px 20px;
+    color: white;
+}
+.last-text p{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #54595F;
+    font-size: 14px;
+}
+

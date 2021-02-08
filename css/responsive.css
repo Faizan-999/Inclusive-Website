@@ -1,0 +1,103 @@
+@media only screen and (max-width: 991px){
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+	.parent-banner h1 {
+		font-size: 35px;
+	}
+	.navbar-nav .nav-item .nav-link {
+		color: #019494;
+	}
+	.navbar-brand img {
+		max-width: 77%;
+		height: auto;
+	}
+	a.navbar-brand {
+		width: 200px;
+	}
+	.btn-primary {
+		font-size: 16px;
+		margin-bottom: 75px;
+	}
+
+	.Why-Incluziv p {
+		font-size: 14px;
+	}
+	.Why-Incluziv h1 {
+		color: #000000;
+		font-size: 28px;
+	}
+	.text-clor {
+		color: #019494;
+		font-size: 28px;
+	}
+	.counters .container {
+		display: grid;
+		 grid-template-columns: none;
+		grid-gap: 20px;
+		text-align: center;
+	}
+	footer {
+		padding-top: 110px;
+		background-color: #E8F1F6;
+		text-align: center;
+	}
+	.crl-div {
+		height: 200px;
+		overflow-y: scroll;
+		text-align: left;
+	}
+	.crl-div p{
+		font-size: 16px;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	.widgt-1 img {
+		max-width: 90%;
+		height: auto;
+	}
+	.card-deck .card p {
+		color: #666666;
+		font-size: 14px;
+	}
+	.ftr-parent h6 {
+		padding-bottom: 20px;
+		color: #54595F;
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.ftr-parent ul li {
+		font-size: 11px;
+		padding-bottom: 8px;
+	}
+	.crl-div p {
+		padding-top: 10px;
+		font-size: 9px;
+	}
+	.ftr-parent h3 {
+		padding-top: 16px;
+		font-size: 14px;
+	}
+	.ftr-parent ul li {
+		font-size: 9px;
+		padding-bottom: 8px;
+	}
+	.widgt-1 p {
+		color: #54595F;
+		font-size: 10px;
+		padding-top: 49px;
+		padding-bottom: 20px;
+	}
+	.last-text p {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		color: #54595F;
+		font-size: 12px;
+	}
+}
