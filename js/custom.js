@@ -27,15 +27,7 @@ jQuery(document).ready(function($){
 
 	updateCount();
 });
-
-
-
-
-
-
-
-
-
+	
 
 
 
@@ -74,6 +66,8 @@ jQuery(document).ready(function($){
 			}
 		});
 	}
+
+	
 
 
 
